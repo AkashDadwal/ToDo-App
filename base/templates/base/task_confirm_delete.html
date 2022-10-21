@@ -1,0 +1,17 @@
+{% extends 'base/index.html' %}
+{% block body %}
+
+<div class="header">
+<h3>Task Delete</h3>
+</div>
+
+<div class="card-body">
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <p>Are you sure you want to Delete this task? "{{task}}"</p>
+    <input class="button" type="submit" value="Delete">
+</form>
+</div>
+
+{% endblock body %}
