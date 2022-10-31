@@ -1,7 +1,7 @@
 
 # ToDo App
 
-ToDo List App using Django class based views with Create Read Update and Delete functionality. User Registration, Login and Search functionality has also been added. 
+ToDo List App using Django class based views with Create, Read, Update and Delete functionality. User Registration, Login and Search functionality has also been added. 
 
 
 ## FUNCTIONS
